@@ -36,8 +36,7 @@ class ChatGLM(LLM):
     def __init__(self, api_url: str, api_key: str, **kwargs):
         super().__init__(
             api_url=api_url,
-            api_key=api_key,
-            **kwargs
+            api_key=api_key,** kwargs
         )
 
     @property
@@ -293,14 +292,14 @@ agent = initialize_agent(
 )
 
 
-# ---------------------- 4. Flask Web服务（无修改，确保前端正常调用） ----------------------
+# ---------------------- 4. Flask Web服务（适配自定义前端） ----------------------
 app = Flask(__name__)
 CORS(app)  # 允许跨域请求
 
 
 @app.route('/')
 def index():
-    """提供前端页面"""
+    """提供你的自定义前端页面（从templates目录读取）"""
     return render_template('index.html')
 
 
@@ -320,7 +319,7 @@ def chat():
         return jsonify({'response': f"抱歉，操作出错了：{str(e)}"}), 500
 
 
-# ---------------------- 5. 运行入口（无修改） ----------------------
+# ---------------------- 5. 运行入口（适配自定义前端） ----------------------
 def run_agent_examples():
     print("📚 自习室预定系统Agent命令行版本\n")
     print("可输入以下指令测试：")
@@ -343,73 +342,9 @@ def run_agent_examples():
 if __name__ == "__main__":
     # 检查命令行参数，启动Web服务或命令行版本
     if len(sys.argv) > 1 and sys.argv[1] == 'web':
-        # 确保templates目录存在（避免前端页面找不到）
+        # 确保templates目录存在（存放你的自定义前端页面）
         os.makedirs('templates', exist_ok=True)
-        # 复制index.html到templates目录（如果不存在）
-        if not os.path.exists('templates/index.html'):
-            with open('index.html', 'w', encoding='utf-8') as f:
-                # 简单前端页面（保持原有逻辑）
-                f.write("""
-                <!DOCTYPE html>
-                <html>
-                <head>
-                    <title>图书馆自习室预定助手</title>
-                    <style>
-                        .container {width: 800px; margin: 50px auto; text-align: center;}
-                        #messageInput {width: 600px; padding: 10px; font-size: 16px;}
-                        #sendBtn {padding: 10px 20px; font-size: 16px;}
-                        #chatHistory {margin-top: 30px; text-align: left; border: 1px solid #ccc; padding: 20px; height: 400px; overflow-y: auto;}
-                    </style>
-                </head>
-                <body>
-                    <div class="container">
-                        <h1>图书馆自习室预定助手</h1>
-                        <div id="chatHistory"></div>
-                        <input type="text" id="messageInput" placeholder="输入指令（如'测试预定系统'）">
-                        <button id="sendBtn">发送</button>
-                    </div>
-                    <script>
-                        const chatHistory = document.getElementById('chatHistory');
-                        const messageInput = document.getElementById('messageInput');
-                        const sendBtn = document.getElementById('sendBtn');
-
-                        // 发送消息
-                        function sendMessage() {
-                            const message = messageInput.value.trim();
-                            if (!message) return;
-                            // 添加用户消息到历史
-                            chatHistory.innerHTML += `<p><strong>你：</strong>${message}</p>`;
-                            messageInput.value = '';
-
-                            // 调用后端API
-                            fetch('/chat', {
-                                method: 'POST',
-                                headers: {'Content-Type': 'application/json'},
-                                body: JSON.stringify({message: message})
-                            })
-                            .then(res => res.json())
-                            .then(data => {
-                                // 添加Agent响应到历史
-                                chatHistory.innerHTML += `<p><strong>助手：</strong>${data.response}</p>`;
-                                // 滚动到底部
-                                chatHistory.scrollTop = chatHistory.scrollHeight;
-                            })
-                            .catch(err => {
-                                chatHistory.innerHTML += `<p><strong>助手：</strong>请求失败，请重试</p>`;
-                            });
-                        }
-
-                        // 按钮点击发送
-                        sendBtn.addEventListener('click', sendMessage);
-                        // 回车发送
-                        messageInput.addEventListener('keypress', e => {
-                            if (e.key === 'Enter') sendMessage();
-                        });
-                    </script>
-                </body>
-                </html>
-                """)
-        # 启动Web服务
+        # 启动Web服务（此时会加载你放在templates目录下的index.html）
         print("🌐 Web服务已启动：http://localhost:5000")
         app.run(debug=True, host='0.0.0.0', port=5000)
     else:
