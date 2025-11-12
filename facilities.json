@@ -1,0 +1,2022 @@
+{
+"facilities": {
+"all": [
+{
+"name": "Duchess of Kent Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "12"
+},
+{
+"name": "Graduate House",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "13"
+},
+{
+"name": "Hornell Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "14"
+},
+{
+"name": "Jockey Club Student Village III",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "91"
+},
+{
+"name": "Lady Ho Tung Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "15"
+},
+{
+"name": "Lee Chi Hung Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "16"
+},
+{
+"name": "Lee Hysan Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "17"
+},
+{
+"name": "Lee Shau Kee Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "18"
+},
+{
+"name": "Madam S.H. Ho Residence for Medical Students",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "19"
+},
+{
+"name": "Morrison Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "20"
+},
+{
+"name": "R. C. Lee Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "22"
+},
+{
+"name": "Ricci Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "23"
+},
+{
+"name": "Robert Black College",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "24"
+},
+{
+"name": "Simon K. Y. Lee Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "25"
+},
+{
+"name": "St. John's College",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "26"
+},
+{
+"name": "Starr Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "27"
+},
+{
+"name": "Suen Chi Sun Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "28"
+},
+{
+"name": "Swire Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "29"
+},
+{
+"name": "University Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "30"
+},
+{
+"name": "Wei Lun Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Accommodation",
+"point_id": "31"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Amenities Centre",
+"point_id": "5"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Amenities Centre",
+"point_id": "6"
+},
+{
+"name": "Pokfulam Amenities Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Amenities Centre",
+"point_id": "7"
+},
+{
+"name": "Baby Care Room (Chong Yuet Ming Amenities Centre)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Baby Care Room",
+"point_id": "169"
+},
+{
+"name": "Baby Care Room (The Jockey Club Tower)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Baby Care Room",
+"point_id": "167"
+},
+{
+"name": "The Bank of China",
+"aliases": [],
+"type": "facility",
+"subcategory": "Banking Services",
+"point_id": "2"
+},
+{
+"name": "The Bank of East Asia",
+"aliases": [],
+"type": "facility",
+"subcategory": "Banking Services",
+"point_id": "3"
+},
+{
+"name": "The Hang Seng Bank",
+"aliases": [],
+"type": "facility",
+"subcategory": "Banking Services",
+"point_id": "105"
+},
+{
+"name": "The HongKong and Shanghai Banking Corporation Ltd (HSBC)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Banking Services",
+"point_id": "4"
+},
+{
+"name": "Hong Kong University Press - Bookshop",
+"aliases": [],
+"type": "facility",
+"subcategory": "Bookstore",
+"point_id": "110"
+},
+{
+"name": "3 Sassoon Road Academic Building (Grove)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "278"
+},
+{
+"name": "5 Sassoon Road Kiosk (Pizza Express Kiosk)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "279"
+},
+{
+"name": "6 Sassoon Road Kiosk (Sandwich Club Kiosk)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "280"
+},
+{
+"name": "Catering Outpost II (Subway)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "97"
+},
+{
+"name": "Catering Outpost III – Kiosk by The Sandwich Club",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "98"
+},
+{
+"name": "Centennial Campus Catering Outlet A (Oliver’s Super Sandwiches)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "113"
+},
+{
+"name": "Centennial Campus Catering Outlet B (alfafa cafe)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "92"
+},
+{
+"name": "Centennial Campus Catering Outlet C (Gourmet Asia)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "93"
+},
+{
+"name": "Centennial Campus Catering Outlet D (BIJAS Vegetarian)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "94"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre Cafeteria (Café 330)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "115"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre Restaurant",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "80"
+},
+{
+"name": "Composite Building G01 (OORI HANSIK)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "274"
+},
+{
+"name": "Composite Building G02 (Tai Tai Foodtopia)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "158"
+},
+{
+"name": "Composite Building G03 (Starbucks Coffee)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "157"
+},
+{
+"name": "Faculty of Medicine Building Coffee Kiosk (Starbucks Coffee)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "276"
+},
+{
+"name": "Fan Pui Garden Catering Outpost (SUBWAY)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "202"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre Restaurant",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "82"
+},
+{
+"name": "Halal Food Corner (27 Kebab House)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "83"
+},
+{
+"name": "Main Library (Old Wing) Coffee Shop – The Coffee Academics",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "95"
+},
+{
+"name": "Senior Common Room (Ming Pavilion & cafe 1951)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "160"
+},
+{
+"name": "The Good Bridge",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "161"
+},
+{
+"name": "Union Restaurant – HK Diners",
+"aliases": [],
+"type": "facility",
+"subcategory": "Catering Outlets",
+"point_id": "86"
+},
+{
+"name": "Computer Access (Chi Wah Learning Commons)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Computing Services",
+"point_id": "109"
+},
+{
+"name": "Dental Unit",
+"aliases": [],
+"type": "facility",
+"subcategory": "Health Services",
+"point_id": "11"
+},
+{
+"name": "Medical Unit",
+"aliases": [],
+"type": "facility",
+"subcategory": "Health Services",
+"point_id": "10"
+},
+{
+"name": "AV & Reserve Collection",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "37"
+},
+{
+"name": "Dental Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "35"
+},
+{
+"name": "Education Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "38"
+},
+{
+"name": "Fung Ping Shan Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "33"
+},
+{
+"name": "Lui Che Woo Law Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "39"
+},
+{
+"name": "Main Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "32"
+},
+{
+"name": "Music Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "34"
+},
+{
+"name": "Special Collections",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "40"
+},
+{
+"name": "Yu Chun Keung Medical Library",
+"aliases": [],
+"type": "facility",
+"subcategory": "Libraries",
+"point_id": "36"
+},
+{
+"name": "Lift at Chong Yuet Ming Amenities Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "199"
+},
+{
+"name": "Lift at Chong Yuet Ming Physics Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "198"
+},
+{
+"name": "Lift at KK Leung Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "197"
+},
+{
+"name": "Lift at Library Building New Wing outside Main Entrance and Hui Pui Hing Lecture Theatre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "193"
+},
+{
+"name": "Lift at Main Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "194"
+},
+{
+"name": "Lift at TT Tsui Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "196"
+},
+{
+"name": "Lift between Library Building Old Wing and Hui Oi Chow Science Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "192"
+},
+{
+"name": "Lifts at Haking Wong Building – close to Canteen",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "190"
+},
+{
+"name": "Lifts at Haking Wong Building – close to Hui Oi Chow Building",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "191"
+},
+{
+"name": "Lifts at the Jockey Club Tower, Centennial Campus",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "188"
+},
+{
+"name": "Lifts at the tower connecting MTR HKU Station Exit C1 and Centennial Campus",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "187"
+},
+{
+"name": "Lifts at the tower of MTR HKU Station Exit A1/A2 (MTR Area)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Lift",
+"point_id": "189"
+},
+{
+"name": "Jao Tsung-I Petite Ecole",
+"aliases": [],
+"type": "facility",
+"subcategory": "Museums",
+"point_id": "43"
+},
+{
+"name": "Stephen Hui Geological Museum",
+"aliases": [],
+"type": "facility",
+"subcategory": "Museums",
+"point_id": "44"
+},
+{
+"name": "University Museum and Art Gallery ( T.T. Tsui Building)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Museums",
+"point_id": "46"
+},
+{
+"name": "University Museum and Art Gallery (Fung Ping Shan Building)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Museums",
+"point_id": "45"
+},
+{
+"name": "Centennial Campus Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "107"
+},
+{
+"name": "Composite Building Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "69"
+},
+{
+"name": "K.K. Leung Bldg Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "74"
+},
+{
+"name": "Kadoorie Biological Sciences Bldg Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "71"
+},
+{
+"name": "Knowles Bldg Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "73"
+},
+{
+"name": "Li Ka Shing Faculty of Medicine Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "68"
+},
+{
+"name": "Meng Wah Complex Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "75"
+},
+{
+"name": "Parking Space (close to Pao Siu Loong Building)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "78"
+},
+{
+"name": "Parking Space at University Drive",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "76"
+},
+{
+"name": "Parking Space at University Drive (close to Chow Yei Ching Building)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "77"
+},
+{
+"name": "Parking Space at University Drive (Close to University Lodge)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "79"
+},
+{
+"name": "West Gate Parking",
+"aliases": [],
+"type": "facility",
+"subcategory": "Parking",
+"point_id": "70"
+},
+{
+"name": "Mail Box",
+"aliases": [],
+"type": "facility",
+"subcategory": "Postal Service",
+"point_id": "41"
+},
+{
+"name": "Sai Ying Pun Post Office",
+"aliases": [],
+"type": "facility",
+"subcategory": "Postal Service",
+"point_id": "42"
+},
+{
+"name": "Fitness Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Sports",
+"point_id": "114"
+},
+{
+"name": "Henry Fok Health and Fitness Complex",
+"aliases": [],
+"type": "facility",
+"subcategory": "Sports",
+"point_id": "111"
+},
+{
+"name": "Henry Fok Swimming Pool",
+"aliases": [],
+"type": "facility",
+"subcategory": "Sports",
+"point_id": "53"
+},
+{
+"name": "Stanley Ho Sports Centre",
+"aliases": [],
+"type": "facility",
+"subcategory": "Sports",
+"point_id": "52"
+},
+{
+"name": "Student Co-operative",
+"aliases": [],
+"type": "facility",
+"subcategory": "Student Co-operative",
+"point_id": "54"
+},
+{
+"name": "Convenient store: 7-ELEVEN",
+"aliases": [],
+"type": "facility",
+"subcategory": "Supermarket",
+"point_id": "104"
+},
+{
+"name": "PARKnSHOP",
+"aliases": [],
+"type": "facility",
+"subcategory": "Supermarket",
+"point_id": "55"
+},
+{
+"name": "U-Vision (BIJAS Vegetarian)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "133"
+},
+{
+"name": "U-Vision (Centennial Gate)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "164"
+},
+{
+"name": "U-Vision (Chi Wah Learning Commons 1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "119"
+},
+{
+"name": "U-Vision (Chi Wah Learning Commons 2/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "134"
+},
+{
+"name": "U-Vision (Chong Yuet Ming Amenities Centre G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "120"
+},
+{
+"name": "U-Vision (Chong Yuet Ming Science Buildings G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "121"
+},
+{
+"name": "U-Vision (Chow Yei Ching Building G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "136"
+},
+{
+"name": "U-Vision (Chow Yei Ching Building LG/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "122"
+},
+{
+"name": "U-Vision (CYM Auditorium 4/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "166"
+},
+{
+"name": "U-Vision (Delifrance)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "132"
+},
+{
+"name": "U-Vision (East Gate Lift Lobby Podium Floor)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "137"
+},
+{
+"name": "U-Vision (Fong Shu Chuen Amenities Centre Restaurant)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "123"
+},
+{
+"name": "U-Vision (Global Lounge)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "138"
+},
+{
+"name": "U-Vision (Graduate House P4 Foyer)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "139"
+},
+{
+"name": "U-Vision (Grove Café)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "117"
+},
+{
+"name": "U-Vision (K.K. Leung Building G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "124"
+},
+{
+"name": "U-Vision (K.K. Leung Building LG2/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "140"
+},
+{
+"name": "U-Vision (Kadoorie Biological Sciences Building Podium Floor)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "125"
+},
+{
+"name": "U-Vision (Knowles Building G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "141"
+},
+{
+"name": "U-Vision (Knowles Building LG2/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "142"
+},
+{
+"name": "U-Vision (Laboratory Block LG1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "149"
+},
+{
+"name": "U-Vision (Lui Che Woo Law Library 1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "126"
+},
+{
+"name": "U-Vision (Lung Wah Street Residential College 4/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "153"
+},
+{
+"name": "U-Vision (Main Building 3/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "143"
+},
+{
+"name": "U-Vision (Maxim's FOOD2)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "135"
+},
+{
+"name": "U-Vision (Meng Wah Complex 1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "127"
+},
+{
+"name": "U-Vision (Prince Philip Dental Hospital Lecture Hall G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "154"
+},
+{
+"name": "U-Vision (Rayson Huang Theatre G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "144"
+},
+{
+"name": "U-Vision (Run Run Shaw Tower LG/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "128"
+},
+{
+"name": "U-Vision (Suen Chi Sun Hall G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "155"
+},
+{
+"name": "U-Vision (Super Congee)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "118"
+},
+{
+"name": "U-Vision (T.T. Tsui Building 3/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "145"
+},
+{
+"name": "U-Vision (T.T. Tsui Building G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "129"
+},
+{
+"name": "U-Vision (The Hong Kong Jockey Club Building for Interdisciplinary Research G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "272"
+},
+{
+"name": "U-Vision (The Jockey Club Tower 1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "146"
+},
+{
+"name": "U-Vision (The Jockey Club Tower 2/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "130"
+},
+{
+"name": "U-Vision (The Jockey Club Tower Courtyard)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "147"
+},
+{
+"name": "U-Vision (Union Restaurant)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "131"
+},
+{
+"name": "U-Vision (University Street G/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "148"
+},
+{
+"name": "U-Vision (Wei Lun Hall 1/F)",
+"aliases": [],
+"type": "facility",
+"subcategory": "U-Vision",
+"point_id": "151"
+},
+{
+"name": "Cyberport (HKU Business School) Lecture Theatres and Classrooms",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "56"
+},
+{
+"name": "Hui Pun Hing Lecture Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "57"
+},
+{
+"name": "Loke Yew Hall",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "58"
+},
+{
+"name": "Meng Wah Lecture Halls (T1-T7)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "59"
+},
+{
+"name": "Other Central Classrooms",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "106"
+},
+{
+"name": "Rayson Huang Theatre (and Foyer)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "60"
+},
+{
+"name": "Wang Gungwu Lecture Hall (and Foyer)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "62"
+},
+{
+"name": "Yuet Ming Auditorium",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings",
+"point_id": "277"
+},
+{
+"name": "Convocation Room",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings (for staff/student functions only)",
+"point_id": "63"
+},
+{
+"name": "KK Leung Concourse, G/F (for small exhibitions or ceremonies only)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings (for staff/student functions only)",
+"point_id": "66"
+},
+{
+"name": "Run Run Shaw Podium (for outdoor activities)",
+"aliases": [],
+"type": "facility",
+"subcategory": "Venues & Bookings (for staff/student functions only)",
+"point_id": "67"
+}
+],
+"subcategory": {
+"Accommodation": [
+{
+"name": "Duchess of Kent Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "12"
+},
+{
+"name": "Graduate House",
+"aliases": [],
+"type": "facility",
+"point_id": "13"
+},
+{
+"name": "Hornell Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "14"
+},
+{
+"name": "Jockey Club Student Village III",
+"aliases": [],
+"type": "facility",
+"point_id": "91"
+},
+{
+"name": "Lady Ho Tung Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "15"
+},
+{
+"name": "Lee Chi Hung Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "16"
+},
+{
+"name": "Lee Hysan Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "17"
+},
+{
+"name": "Lee Shau Kee Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "18"
+},
+{
+"name": "Madam S.H. Ho Residence for Medical Students",
+"aliases": [],
+"type": "facility",
+"point_id": "19"
+},
+{
+"name": "Morrison Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "20"
+},
+{
+"name": "R. C. Lee Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "22"
+},
+{
+"name": "Ricci Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "23"
+},
+{
+"name": "Robert Black College",
+"aliases": [],
+"type": "facility",
+"point_id": "24"
+},
+{
+"name": "Simon K. Y. Lee Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "25"
+},
+{
+"name": "St. John's College",
+"aliases": [],
+"type": "facility",
+"point_id": "26"
+},
+{
+"name": "Starr Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "27"
+},
+{
+"name": "Suen Chi Sun Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "28"
+},
+{
+"name": "Swire Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "29"
+},
+{
+"name": "University Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "30"
+},
+{
+"name": "Wei Lun Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "31"
+}
+],
+"Amenities Centre": [
+{
+"name": "Chong Yuet Ming Amenities Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "5"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "6"
+},
+{
+"name": "Pokfulam Amenities Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "7"
+}
+],
+"Baby Care Room": [
+{
+"name": "Baby Care Room (Chong Yuet Ming Amenities Centre)",
+"aliases": [],
+"type": "facility",
+"point_id": "169"
+},
+{
+"name": "Baby Care Room (The Jockey Club Tower)",
+"aliases": [],
+"type": "facility",
+"point_id": "167"
+}
+],
+"Banking Services": [
+{
+"name": "The Bank of China",
+"aliases": [],
+"type": "facility",
+"point_id": "2"
+},
+{
+"name": "The Bank of East Asia",
+"aliases": [],
+"type": "facility",
+"point_id": "3"
+},
+{
+"name": "The Hang Seng Bank",
+"aliases": [],
+"type": "facility",
+"point_id": "105"
+},
+{
+"name": "The HongKong and Shanghai Banking Corporation Ltd (HSBC)",
+"aliases": [],
+"type": "facility",
+"point_id": "4"
+}
+],
+"Bookstore": [
+{
+"name": "Hong Kong University Press - Bookshop",
+"aliases": [],
+"type": "facility",
+"point_id": "110"
+}
+],
+"Catering Outlets": [
+{
+"name": "3 Sassoon Road Academic Building (Grove)",
+"aliases": [],
+"type": "facility",
+"point_id": "278"
+},
+{
+"name": "5 Sassoon Road Kiosk (Pizza Express Kiosk)",
+"aliases": [],
+"type": "facility",
+"point_id": "279"
+},
+{
+"name": "6 Sassoon Road Kiosk (Sandwich Club Kiosk)",
+"aliases": [],
+"type": "facility",
+"point_id": "280"
+},
+{
+"name": "Catering Outpost II (Subway)",
+"aliases": [],
+"type": "facility",
+"point_id": "97"
+},
+{
+"name": "Catering Outpost III – Kiosk by The Sandwich Club",
+"aliases": [],
+"type": "facility",
+"point_id": "98"
+},
+{
+"name": "Centennial Campus Catering Outlet A (Oliver’s Super Sandwiches)",
+"aliases": [],
+"type": "facility",
+"point_id": "113"
+},
+{
+"name": "Centennial Campus Catering Outlet B (alfafa cafe)",
+"aliases": [],
+"type": "facility",
+"point_id": "92"
+},
+{
+"name": "Centennial Campus Catering Outlet C (Gourmet Asia)",
+"aliases": [],
+"type": "facility",
+"point_id": "93"
+},
+{
+"name": "Centennial Campus Catering Outlet D (BIJAS Vegetarian)",
+"aliases": [],
+"type": "facility",
+"point_id": "94"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre Cafeteria (Café 330)",
+"aliases": [],
+"type": "facility",
+"point_id": "115"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre Restaurant",
+"aliases": [],
+"type": "facility",
+"point_id": "80"
+},
+{
+"name": "Composite Building G01 (OORI HANSIK)",
+"aliases": [],
+"type": "facility",
+"point_id": "274"
+},
+{
+"name": "Composite Building G02 (Tai Tai Foodtopia)",
+"aliases": [],
+"type": "facility",
+"point_id": "158"
+},
+{
+"name": "Composite Building G03 (Starbucks Coffee)",
+"aliases": [],
+"type": "facility",
+"point_id": "157"
+},
+{
+"name": "Faculty of Medicine Building Coffee Kiosk (Starbucks Coffee)",
+"aliases": [],
+"type": "facility",
+"point_id": "276"
+},
+{
+"name": "Fan Pui Garden Catering Outpost (SUBWAY)",
+"aliases": [],
+"type": "facility",
+"point_id": "202"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre Restaurant",
+"aliases": [],
+"type": "facility",
+"point_id": "82"
+},
+{
+"name": "Halal Food Corner (27 Kebab House)",
+"aliases": [],
+"type": "facility",
+"point_id": "83"
+},
+{
+"name": "Main Library (Old Wing) Coffee Shop – The Coffee Academics",
+"aliases": [],
+"type": "facility",
+"point_id": "95"
+},
+{
+"name": "Senior Common Room (Ming Pavilion & cafe 1951)",
+"aliases": [],
+"type": "facility",
+"point_id": "160"
+},
+{
+"name": "The Good Bridge",
+"aliases": [],
+"type": "facility",
+"point_id": "161"
+},
+{
+"name": "Union Restaurant – HK Diners",
+"aliases": [],
+"type": "facility",
+"point_id": "86"
+}
+],
+"Computing Services": [
+{
+"name": "Computer Access (Chi Wah Learning Commons)",
+"aliases": [],
+"type": "facility",
+"point_id": "109"
+}
+],
+"Health Services": [
+{
+"name": "Dental Unit",
+"aliases": [],
+"type": "facility",
+"point_id": "11"
+},
+{
+"name": "Medical Unit",
+"aliases": [],
+"type": "facility",
+"point_id": "10"
+}
+],
+"Libraries": [
+{
+"name": "AV & Reserve Collection",
+"aliases": [],
+"type": "facility",
+"point_id": "37"
+},
+{
+"name": "Dental Library",
+"aliases": [],
+"type": "facility",
+"point_id": "35"
+},
+{
+"name": "Education Library",
+"aliases": [],
+"type": "facility",
+"point_id": "38"
+},
+{
+"name": "Fung Ping Shan Library",
+"aliases": [],
+"type": "facility",
+"point_id": "33"
+},
+{
+"name": "Lui Che Woo Law Library",
+"aliases": [],
+"type": "facility",
+"point_id": "39"
+},
+{
+"name": "Main Library",
+"aliases": [],
+"type": "facility",
+"point_id": "32"
+},
+{
+"name": "Music Library",
+"aliases": [],
+"type": "facility",
+"point_id": "34"
+},
+{
+"name": "Special Collections",
+"aliases": [],
+"type": "facility",
+"point_id": "40"
+},
+{
+"name": "Yu Chun Keung Medical Library",
+"aliases": [],
+"type": "facility",
+"point_id": "36"
+}
+],
+"Lift": [
+{
+"name": "Lift at Chong Yuet Ming Amenities Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "199"
+},
+{
+"name": "Lift at Chong Yuet Ming Physics Building",
+"aliases": [],
+"type": "facility",
+"point_id": "198"
+},
+{
+"name": "Lift at KK Leung Building",
+"aliases": [],
+"type": "facility",
+"point_id": "197"
+},
+{
+"name": "Lift at Library Building New Wing outside Main Entrance and Hui Pui Hing Lecture Theatre",
+"aliases": [],
+"type": "facility",
+"point_id": "193"
+},
+{
+"name": "Lift at Main Building",
+"aliases": [],
+"type": "facility",
+"point_id": "194"
+},
+{
+"name": "Lift at TT Tsui Building",
+"aliases": [],
+"type": "facility",
+"point_id": "196"
+},
+{
+"name": "Lift between Library Building Old Wing and Hui Oi Chow Science Building",
+"aliases": [],
+"type": "facility",
+"point_id": "192"
+},
+{
+"name": "Lifts at Haking Wong Building – close to Canteen",
+"aliases": [],
+"type": "facility",
+"point_id": "190"
+},
+{
+"name": "Lifts at Haking Wong Building – close to Hui Oi Chow Building",
+"aliases": [],
+"type": "facility",
+"point_id": "191"
+},
+{
+"name": "Lifts at the Jockey Club Tower, Centennial Campus",
+"aliases": [],
+"type": "facility",
+"point_id": "188"
+},
+{
+"name": "Lifts at the tower connecting MTR HKU Station Exit C1 and Centennial Campus",
+"aliases": [],
+"type": "facility",
+"point_id": "187"
+},
+{
+"name": "Lifts at the tower of MTR HKU Station Exit A1/A2 (MTR Area)",
+"aliases": [],
+"type": "facility",
+"point_id": "189"
+}
+],
+"Museums": [
+{
+"name": "Jao Tsung-I Petite Ecole",
+"aliases": [],
+"type": "facility",
+"point_id": "43"
+},
+{
+"name": "Stephen Hui Geological Museum",
+"aliases": [],
+"type": "facility",
+"point_id": "44"
+},
+{
+"name": "University Museum and Art Gallery ( T.T. Tsui Building)",
+"aliases": [],
+"type": "facility",
+"point_id": "46"
+},
+{
+"name": "University Museum and Art Gallery (Fung Ping Shan Building)",
+"aliases": [],
+"type": "facility",
+"point_id": "45"
+}
+],
+"Parking": [
+{
+"name": "Centennial Campus Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "107"
+},
+{
+"name": "Composite Building Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "69"
+},
+{
+"name": "K.K. Leung Bldg Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "74"
+},
+{
+"name": "Kadoorie Biological Sciences Bldg Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "71"
+},
+{
+"name": "Knowles Bldg Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "73"
+},
+{
+"name": "Li Ka Shing Faculty of Medicine Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "68"
+},
+{
+"name": "Meng Wah Complex Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "75"
+},
+{
+"name": "Parking Space (close to Pao Siu Loong Building)",
+"aliases": [],
+"type": "facility",
+"point_id": "78"
+},
+{
+"name": "Parking Space at University Drive",
+"aliases": [],
+"type": "facility",
+"point_id": "76"
+},
+{
+"name": "Parking Space at University Drive (close to Chow Yei Ching Building)",
+"aliases": [],
+"type": "facility",
+"point_id": "77"
+},
+{
+"name": "Parking Space at University Drive (Close to University Lodge)",
+"aliases": [],
+"type": "facility",
+"point_id": "79"
+},
+{
+"name": "West Gate Parking",
+"aliases": [],
+"type": "facility",
+"point_id": "70"
+}
+],
+"Postal Service": [
+{
+"name": "Mail Box",
+"aliases": [],
+"type": "facility",
+"point_id": "41"
+},
+{
+"name": "Sai Ying Pun Post Office",
+"aliases": [],
+"type": "facility",
+"point_id": "42"
+}
+],
+"Sports": [
+{
+"name": "Fitness Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "114"
+},
+{
+"name": "Henry Fok Health and Fitness Complex",
+"aliases": [],
+"type": "facility",
+"point_id": "111"
+},
+{
+"name": "Henry Fok Swimming Pool",
+"aliases": [],
+"type": "facility",
+"point_id": "53"
+},
+{
+"name": "Stanley Ho Sports Centre",
+"aliases": [],
+"type": "facility",
+"point_id": "52"
+}
+],
+"Student Co-operative": [
+{
+"name": "Student Co-operative",
+"aliases": [],
+"type": "facility",
+"point_id": "54"
+}
+],
+"Supermarket": [
+{
+"name": "Convenient store: 7-ELEVEN",
+"aliases": [],
+"type": "facility",
+"point_id": "104"
+},
+{
+"name": "PARKnSHOP",
+"aliases": [],
+"type": "facility",
+"point_id": "55"
+}
+],
+"U-Vision": [
+{
+"name": "U-Vision (BIJAS Vegetarian)",
+"aliases": [],
+"type": "facility",
+"point_id": "133"
+},
+{
+"name": "U-Vision (Centennial Gate)",
+"aliases": [],
+"type": "facility",
+"point_id": "164"
+},
+{
+"name": "U-Vision (Chi Wah Learning Commons 1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "119"
+},
+{
+"name": "U-Vision (Chi Wah Learning Commons 2/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "134"
+},
+{
+"name": "U-Vision (Chong Yuet Ming Amenities Centre G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "120"
+},
+{
+"name": "U-Vision (Chong Yuet Ming Science Buildings G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "121"
+},
+{
+"name": "U-Vision (Chow Yei Ching Building G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "136"
+},
+{
+"name": "U-Vision (Chow Yei Ching Building LG/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "122"
+},
+{
+"name": "U-Vision (CYM Auditorium 4/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "166"
+},
+{
+"name": "U-Vision (Delifrance)",
+"aliases": [],
+"type": "facility",
+"point_id": "132"
+},
+{
+"name": "U-Vision (East Gate Lift Lobby Podium Floor)",
+"aliases": [],
+"type": "facility",
+"point_id": "137"
+},
+{
+"name": "U-Vision (Fong Shu Chuen Amenities Centre Restaurant)",
+"aliases": [],
+"type": "facility",
+"point_id": "123"
+},
+{
+"name": "U-Vision (Global Lounge)",
+"aliases": [],
+"type": "facility",
+"point_id": "138"
+},
+{
+"name": "U-Vision (Graduate House P4 Foyer)",
+"aliases": [],
+"type": "facility",
+"point_id": "139"
+},
+{
+"name": "U-Vision (Grove Café)",
+"aliases": [],
+"type": "facility",
+"point_id": "117"
+},
+{
+"name": "U-Vision (K.K. Leung Building G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "124"
+},
+{
+"name": "U-Vision (K.K. Leung Building LG2/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "140"
+},
+{
+"name": "U-Vision (Kadoorie Biological Sciences Building Podium Floor)",
+"aliases": [],
+"type": "facility",
+"point_id": "125"
+},
+{
+"name": "U-Vision (Knowles Building G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "141"
+},
+{
+"name": "U-Vision (Knowles Building LG2/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "142"
+},
+{
+"name": "U-Vision (Laboratory Block LG1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "149"
+},
+{
+"name": "U-Vision (Lui Che Woo Law Library 1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "126"
+},
+{
+"name": "U-Vision (Lung Wah Street Residential College 4/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "153"
+},
+{
+"name": "U-Vision (Main Building 3/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "143"
+},
+{
+"name": "U-Vision (Maxim's FOOD2)",
+"aliases": [],
+"type": "facility",
+"point_id": "135"
+},
+{
+"name": "U-Vision (Meng Wah Complex 1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "127"
+},
+{
+"name": "U-Vision (Prince Philip Dental Hospital Lecture Hall G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "154"
+},
+{
+"name": "U-Vision (Rayson Huang Theatre G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "144"
+},
+{
+"name": "U-Vision (Run Run Shaw Tower LG/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "128"
+},
+{
+"name": "U-Vision (Suen Chi Sun Hall G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "155"
+},
+{
+"name": "U-Vision (Super Congee)",
+"aliases": [],
+"type": "facility",
+"point_id": "118"
+},
+{
+"name": "U-Vision (T.T. Tsui Building 3/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "145"
+},
+{
+"name": "U-Vision (T.T. Tsui Building G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "129"
+},
+{
+"name": "U-Vision (The Hong Kong Jockey Club Building for Interdisciplinary Research G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "272"
+},
+{
+"name": "U-Vision (The Jockey Club Tower 1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "146"
+},
+{
+"name": "U-Vision (The Jockey Club Tower 2/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "130"
+},
+{
+"name": "U-Vision (The Jockey Club Tower Courtyard)",
+"aliases": [],
+"type": "facility",
+"point_id": "147"
+},
+{
+"name": "U-Vision (Union Restaurant)",
+"aliases": [],
+"type": "facility",
+"point_id": "131"
+},
+{
+"name": "U-Vision (University Street G/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "148"
+},
+{
+"name": "U-Vision (Wei Lun Hall 1/F)",
+"aliases": [],
+"type": "facility",
+"point_id": "151"
+}
+],
+"Venues & Bookings": [
+{
+"name": "Cyberport (HKU Business School) Lecture Theatres and Classrooms",
+"aliases": [],
+"type": "facility",
+"point_id": "56"
+},
+{
+"name": "Hui Pun Hing Lecture Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "57"
+},
+{
+"name": "Loke Yew Hall",
+"aliases": [],
+"type": "facility",
+"point_id": "58"
+},
+{
+"name": "Meng Wah Lecture Halls (T1-T7)",
+"aliases": [],
+"type": "facility",
+"point_id": "59"
+},
+{
+"name": "Other Central Classrooms",
+"aliases": [],
+"type": "facility",
+"point_id": "106"
+},
+{
+"name": "Rayson Huang Theatre (and Foyer)",
+"aliases": [],
+"type": "facility",
+"point_id": "60"
+},
+{
+"name": "Wang Gungwu Lecture Hall (and Foyer)",
+"aliases": [],
+"type": "facility",
+"point_id": "62"
+},
+{
+"name": "Yuet Ming Auditorium",
+"aliases": [],
+"type": "facility",
+"point_id": "277"
+}
+],
+"Venues & Bookings (for staff/student functions only)": [
+{
+"name": "Convocation Room",
+"aliases": [],
+"type": "facility",
+"point_id": "63"
+},
+{
+"name": "KK Leung Concourse, G/F (for small exhibitions or ceremonies only)",
+"aliases": [],
+"type": "facility",
+"point_id": "66"
+},
+{
+"name": "Run Run Shaw Podium (for outdoor activities)",
+"aliases": [],
+"type": "facility",
+"point_id": "67"
+}
+]
+}
+}
+}

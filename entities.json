@@ -1,0 +1,1426 @@
+{
+"buildings": [
+{
+"name": "Central Podium Levels (CPD)",
+"aliases": ["中庭平台层 (CPD)", "CPD", "中央平台层"],
+"type": "building"
+},
+{
+"name": "Cheng Yu Tung Tower",
+"aliases": ["张玉堂大楼", "郑玉堂大楼", "郑玉堂塔", "CYT Tower", "Cheng Yu Tung Building", "CYTT"],
+"type": "building"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre",
+"aliases": ["庄悦明便利中心", "CYM Amenities"],
+"type": "building"
+},
+{
+"name": "Chong Yuet Ming Chemistry Building",
+"aliases": ["庄悦明化学大楼", "CYM Chemistry"],
+"type": "building"
+},
+{
+"name": "Chong Yuet Ming Fountain",
+"aliases": ["庄悦明喷泉", "CYM Fountain"],
+"type": "building"
+},
+{
+"name": "Chong Yuet Ming Physics Building",
+"aliases": ["庄悦明物理大楼", "CYM Physics"],
+"type": "building"
+},
+{
+"name": "Chow Yei Ching Building",
+"aliases": ["周睿智大楼", "CYC Building"],
+"type": "building"
+},
+{
+"name": "Composite Building",
+"aliases": ["综合大楼", "CB"],
+"type": "building"
+},
+{
+"name": "Eliot Hall",
+"aliases": ["艾略特堂", "EH"],
+"type": "building"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre",
+"aliases": ["方树全便利中心", "FSC Amenities"],
+"type": "building"
+},
+{
+"name": "Fung Ping Shan Building",
+"aliases": ["冯平山大楼", "FPS Building"],
+"type": "building"
+},
+{
+"name": "Graduate House",
+"aliases": ["研究生院", "GH"],
+"type": "building"
+},
+{
+"name": "Haking Wong Building",
+"aliases": ["何明华楼", "HWB"],
+"type": "building"
+},
+{
+"name": "Hui Oi Chow Science Building",
+"aliases": ["许爱周科学大楼", "HOC Science"],
+"type": "building"
+},
+{
+"name": "Hung Hing Ying Building",
+"aliases": ["洪兴英楼", "HHY Building"],
+"type": "building"
+},
+{
+"name": "James Hsioung Lee Science Building",
+"aliases": ["李兆强科学大楼", "JHL Science"],
+"type": "building"
+},
+{
+"name": "K.K. Leung Building",
+"aliases": ["梁銶琚楼", "KKL Building"],
+"type": "building"
+},
+{
+"name": "Kadoorie Biological Sciences Building",
+"aliases": ["嘉道理生物科学大楼", "KBSB"],
+"type": "building"
+},
+{
+"name": "Knowles Building",
+"aliases": ["诺尔斯大楼", "KL"],
+"type": "building"
+},
+{
+"name": "Lee Shau Kee Lecture Centre",
+"aliases": ["李嘉诚讲堂", "LSK Lecture"],
+"type": "building"
+},
+{
+"name": "Library Building (New Wing)",
+"aliases": ["图书馆大楼 (新翼)", "Lib New Wing"],
+"type": "building"
+},
+{
+"name": "Library Building (Old Wing)",
+"aliases": ["图书馆大楼 (旧翼)", "Lib Old Wing"],
+"type": "building"
+},
+{
+"name": "Loke Yew Hall",
+"aliases": ["陆佑堂", "LYH"],
+"type": "building"
+},
+{
+"name": "Lui Che Woo Law Library",
+"aliases": ["刘銮雄法学院图书馆", "LCW Law Lib"],
+"type": "building"
+},
+{
+"name": "Main Building",
+"aliases": ["本楼", "Main Bldg", "MB", "本部大楼"],
+"type": "building"
+},
+{
+"name": "May Hall",
+"aliases": ["梅堂", "MH"],
+"type": "building"
+},
+{
+"name": "Meng Wah Complex",
+"aliases": ["孟华大楼群", "MWC"],
+"type": "building"
+},
+{
+"name": "Pao Siu Loong Building",
+"aliases": ["包兆龙大楼", "PSL Building"],
+"type": "building"
+},
+{
+"name": "Rayson Huang Theatre",
+"aliases": ["黄丽松剧院", "RHT"],
+"type": "building"
+},
+{
+"name": "Robert Black College",
+"aliases": ["罗伯·布莱克学院", "RBC"],
+"type": "building"
+},
+{
+"name": "Run Run Shaw Building",
+"aliases": ["邵逸夫大楼", "RRS Building"],
+"type": "building"
+},
+{
+"name": "Run Run Shaw Heritage House",
+"aliases": ["邵逸夫遗产屋", "RRS Heritage"],
+"type": "building"
+},
+{
+"name": "Run Run Shaw Tower",
+"aliases": ["邵逸夫楼", "邵逸夫大楼", "Shaw Tower", "RRST"],
+"type": "building"
+},
+{
+"name": "Runme Shaw Building",
+"aliases": ["邵逸夫大楼", "RMS Building"],
+"type": "building"
+},
+{
+"name": "Simon K.Y. Lee Hall",
+"aliases": ["李国贤堂", "SKYL Hall"],
+"type": "building"
+},
+{
+"name": "Swire Hall",
+"aliases": ["太古堂", "SH"],
+"type": "building"
+},
+{
+"name": "T.T. Tsui Building",
+"aliases": ["徐展堂大楼", "TTT Building"],
+"type": "building"
+},
+{
+"name": "Tang Chi Ngong Building",
+"aliases": ["邓智恒大楼", "TCN Building"],
+"type": "building"
+},
+{
+"name": "The Jockey Club Building",
+"aliases": ["赛马会大楼", "JCB"],
+"type": "building"
+},
+{
+"name": "The Jockey Club Tower",
+"aliases": ["赛马会塔", "JCT"],
+"type": "building"
+},
+{
+"name": "The University of Hong Kong Visitor Centre",
+"aliases": ["香港大学访客中心", "HKU VC"],
+"type": "building"
+},
+{
+"name": "University Lodge",
+"aliases": ["大学宿舍", "UL"],
+"type": "building"
+},
+{
+"name": "Wong Chuang Lai Wah Building",
+"aliases": ["黄创丽华大楼", "WCLW Building"],
+"type": "building"
+},
+{
+"name": "Wong Chue Meng Building",
+"aliases": ["黄觉民大楼", "WCM Building"],
+"type": "building"
+},
+{
+"name": "Yam Pak Building",
+"aliases": ["任北楼", "YPB"],
+"type": "building"
+},
+{
+"name": "Yu Chun Keung Tam Shuk Yin Learning Centre",
+"aliases": ["余俊尧谭淑贤学习中心", "YCKTSY LC"],
+"type": "building"
+},
+{
+"name": "Yu Chun Keung Tam Shuk Yin Lecture Theatre",
+"aliases": ["余俊尧谭淑贤演讲厅", "YCKTSY LT"],
+"type": "building"
+},
+{
+"name": "3 Sassoon Road",
+"aliases": ["沙宣道3号", "SSR3"],
+"type": "building"
+},
+{
+"name": "Clinical Pathology Building",
+"aliases": ["临床病理大楼", "CPB"],
+"type": "building"
+},
+{
+"name": "Dexter H.C. Man Building",
+"aliases": ["文智辉大楼", "DHCM Building"],
+"type": "building"
+},
+{
+"name": "Estates Building",
+"aliases": ["物业大楼", "EB"],
+"type": "building"
+},
+{
+"name": "Faculty of Medicine Building",
+"aliases": ["医学院大楼", "FMB"],
+"type": "building"
+},
+{
+"name": "Felix Villas",
+"aliases": ["费列克斯别墅", "FV"],
+"type": "building"
+},
+{
+"name": "Henry Fok Health and Fitness Complex",
+"aliases": ["霍英东健康及健身中心", "HFHFC"],
+"type": "building"
+},
+{
+"name": "Jockey Club Building for Interdisciplinary Research",
+"aliases": ["赛马会跨学科研究大楼", "JCBIR"],
+"type": "building"
+},
+{
+"name": "Laboratory Animal Unit",
+"aliases": ["实验室动物单位", "LAU"],
+"type": "building"
+},
+{
+"name": "Laboratory Block",
+"aliases": ["实验室楼", "LB"],
+"type": "building"
+},
+{
+"name": "Lee Hysan Hall",
+"aliases": ["李嘉诚堂", "LHH"],
+"type": "building"
+},
+{
+"name": "Madam S.H. Ho Residence for Medical Students",
+"aliases": ["何善衡夫人医学生宿舍", "MSHR"],
+"type": "building"
+},
+{
+"name": "Middleton Towers Block 1",
+"aliases": ["米德尔顿塔1座", "MTB1"],
+"type": "building"
+},
+{
+"name": "Middleton Towers Block 2",
+"aliases": ["米德尔顿塔2座", "MTB2"],
+"type": "building"
+},
+{
+"name": "Middleton Towers Block 3",
+"aliases": ["米德尔顿塔3座", "MTB3"],
+"type": "building"
+},
+{
+"name": "New Alberose",
+"aliases": ["新艾伯罗斯", "NA"],
+"type": "building"
+},
+{
+"name": "New Clinical Building",
+"aliases": ["新临床大楼", "NCB"],
+"type": "building"
+},
+{
+"name": "Old Alberose",
+"aliases": ["旧艾伯罗斯", "OA"],
+"type": "building"
+},
+{
+"name": "Patrick Manson Building",
+"aliases": ["孟生大楼", "PMB"],
+"type": "building"
+},
+{
+"name": "Pauline Chan Building",
+"aliases": ["陈宝莲大楼", "PCB"],
+"type": "building"
+},
+{
+"name": "Pine Court Blk 1",
+"aliases": ["松庭1座", "PCB1"],
+"type": "building"
+},
+{
+"name": "Pine Court Blk 2",
+"aliases": ["松庭2座", "PCB2"],
+"type": "building"
+},
+{
+"name": "Pine Court Blk 3",
+"aliases": ["松庭3座", "PCB3"],
+"type": "building"
+},
+{
+"name": "Pokfulam Amenities Centre",
+"aliases": ["薄扶林便利中心", "PAC"],
+"type": "building"
+},
+{
+"name": "Queen Mary Hospital, Block K",
+"aliases": ["玛丽医院K座", "QMH K"],
+"type": "building"
+},
+{
+"name": "Queen Mary Hospital, Professorial Block",
+"aliases": ["玛丽医院教授楼", "QMH Prof"],
+"type": "building"
+},
+{
+"name": "R.C. Lee Hall",
+"aliases": ["李兆基堂", "RCLH"],
+"type": "building"
+},
+{
+"name": "Rodrigues Court",
+"aliases": ["罗德里格斯庭", "RC"],
+"type": "building"
+},
+{
+"name": "Stanley Ho Sports Centre",
+"aliases": ["何鸿燊体育中心", "SHSC"],
+"type": "building"
+},
+{
+"name": "Tam Towers",
+"aliases": ["谭氏塔", "TT"],
+"type": "building"
+},
+{
+"name": "University Hall",
+"aliases": ["大学堂", "UH"],
+"type": "building"
+},
+{
+"name": "Wei Lun Hall",
+"aliases": ["卫兰堂", "WLH"],
+"type": "building"
+},
+{
+"name": "William M.W. Mong Block",
+"aliases": ["蒙民伟楼", "WMWM Block"],
+"type": "building"
+},
+{
+"name": "Cyberport",
+"aliases": ["数码港", "CP"],
+"type": "building"
+},
+{
+"name": "Hing Wai Centre",
+"aliases": ["兴伟中心", "HWC"],
+"type": "building"
+},
+{
+"name": "Ho Tim Hall",
+"aliases": ["何添堂", "HTH"],
+"type": "building"
+},
+{
+"name": "Jockey Club Student Village III",
+"aliases": ["赛马会学生村III", "JCSV III"],
+"type": "building"
+},
+{
+"name": "Kadoorie Centre",
+"aliases": ["嘉道理中心", "KC"],
+"type": "building"
+},
+{
+"name": "Kennedy Town Centre",
+"aliases": ["坚尼地城中心", "KTC"],
+"type": "building"
+},
+{
+"name": "Lady Ho Tung Hall",
+"aliases": ["何东夫人堂", "LHTH"],
+"type": "building"
+},
+{
+"name": "Lee Shau Kee Hall",
+"aliases": ["李兆基堂", "LSKH"],
+"type": "building"
+},
+{
+"name": "Morrison Hall",
+"aliases": ["马礼逊堂", "MOH"],
+"type": "building"
+},
+{
+"name": "Pokfield Campus (in progress)",
+"aliases": ["薄扶林校区 (进行中)", "PFC"],
+"type": "building"
+},
+{
+"name": "Prince Philip Dental Hospital",
+"aliases": ["菲腊牙科医院", "PPDH"],
+"type": "building"
+},
+{
+"name": "Ricci Hall",
+"aliases": ["利玛窦堂", "RH"],
+"type": "building"
+},
+{
+"name": "SPACE Admiralty Centre",
+"aliases": ["SPACE 金钟中心", "SAC"],
+"type": "building"
+},
+{
+"name": "SPACE Cyberport 1",
+"aliases": ["SPACE 数码港1", "SPC1"],
+"type": "building"
+},
+{
+"name": "St. John's College",
+"aliases": ["圣约翰书院", "SJC"],
+"type": "building"
+},
+{
+"name": "Starr Hall",
+"aliases": ["史笃华堂", "STH"],
+"type": "building"
+},
+{
+"name": "Suen Chi Sun Hall",
+"aliases": ["孙子俊堂", "SCSH"],
+"type": "building"
+},
+{
+"name": "Swire Institute of Marine Science",
+"aliases": ["太古海洋科学研究所", "SIMS"],
+"type": "building"
+},
+{
+"name": "Wang Gungwu Lecture Hall",
+"aliases": ["王庚武讲堂", "WGW LH"],
+"type": "building"
+},
+{
+"name": "Swire Building",
+"aliases": ["太古楼", "SB"],
+"type": "building"
+}
+],
+"departments": [
+{
+"name": "Academic Advising Office",
+"aliases": ["学术指导办公室"],
+"type": "department"
+},
+{
+"name": "Academic Development and Quality Assurance Section",
+"aliases": ["学术发展及素质保证组"],
+"type": "department"
+},
+{
+"name": "Academic Liaison Section",
+"aliases": ["学术联络组"],
+"type": "department"
+},
+{
+"name": "Academic Staff Association of The University of Hong Kong",
+"aliases": ["香港大学学术人员协会"],
+"type": "department"
+},
+{
+"name": "Academic Support and Admissions Section",
+"aliases": ["学术支援及招生组"],
+"type": "department"
+},
+{
+"name": "Advancement in Inclusive and Special Education, Centre for",
+"aliases": ["融合及特殊教育推进中心"],
+"type": "department"
+},
+{
+"name": "Advancement of Chinese Language Education and Research, Centre for",
+"aliases": ["中文教育及研究推进中心"],
+"type": "department"
+},
+{
+"name": "Ageing, Sau Po Centre on",
+"aliases": ["秀宝老龄化研究中心"],
+"type": "department"
+},
+{
+"name": "AIDS Institute",
+"aliases": ["艾滋病研究所"],
+"type": "department"
+},
+{
+"name": "American Studies, Centre of",
+"aliases": ["美国研究中心"],
+"type": "department"
+},
+{
+"name": "Anaesthesiology, Department of",
+"aliases": ["麻醉及疼痛医学系"],
+"type": "department"
+},
+{
+"name": "Anthropological Research, Centre for",
+"aliases": ["人类学研究发展中心"],
+"type": "department"
+},
+{
+"name": "Applied English Studies, Centre for",
+"aliases": ["应用英语研究发展中心"],
+"type": "department"
+},
+{
+"name": "Architecture, Department of",
+"aliases": ["建筑学系"],
+"type": "department"
+},
+{
+"name": "Architecture, Faculty of",
+"aliases": ["建筑学院"],
+"type": "department"
+},
+{
+"name": "Arts, Faculty of",
+"aliases": ["文学院"],
+"type": "department"
+},
+{
+"name": "Asia Case Research Centre",
+"aliases": ["亚洲个案研究发展中心"],
+"type": "department"
+},
+{
+"name": "Asia Global Institute",
+"aliases": ["亚洲环球研究所"],
+"type": "department"
+},
+{
+"name": "Asian Institute of International Financial Law",
+"aliases": ["亚洲国际金融法研究所"],
+"type": "department"
+},
+{
+"name": "Asian Tall Buildings and Urban Habitat, Centre for",
+"aliases": ["亚洲高层建筑及都市人居环境中心"],
+"type": "department"
+},
+{
+"name": "Behavioural Health, Centre on",
+"aliases": ["行为健康中心"],
+"type": "department"
+},
+{
+"name": "Behavioural Sciences, Unit for",
+"aliases": ["行为科学组"],
+"type": "department"
+},
+{
+"name": "Biological Sciences, School of",
+"aliases": ["生物科学学院"],
+"type": "department"
+},
+{
+"name": "Biomedical Sciences, School of",
+"aliases": ["生物医学学院"],
+"type": "department"
+},
+{
+"name": "Buddhist Studies, Centre of",
+"aliases": ["佛教研究中心"],
+"type": "department"
+},
+{
+"name": "Business and Economics, Faculty of (HKU Business School)",
+"aliases": ["经管学院 (HKU 商学院)"],
+"type": "department"
+},
+{
+"name": "Cardiovascular Science and Medicine, Institute of",
+"aliases": ["心血管科学及医学研究所"],
+"type": "department"
+},
+{
+"name": "Chemistry, Department of",
+"aliases": ["化学系"],
+"type": "department"
+},
+{
+"name": "China Affairs Office",
+"aliases": ["中国事务处"],
+"type": "department"
+},
+{
+"name": "China Development Studies, International Centre for",
+"aliases": ["中国发展研究国际中心"],
+"type": "department"
+},
+{
+"name": "China Financial Research, Centre for",
+"aliases": ["中国金融研究中心"],
+"type": "department"
+},
+{
+"name": "Chinese Law, Centre for",
+"aliases": ["中国法研究中心"],
+"type": "department"
+},
+{
+"name": "Chinese Management Centre",
+"aliases": ["中国管理研究中心"],
+"type": "department"
+},
+{
+"name": "Chinese Medicine, School of",
+"aliases": ["中医学院"],
+"type": "department"
+},
+{
+"name": "Chinese, School of",
+"aliases": ["中文学院"],
+"type": "department"
+},
+{
+"name": "Chong Yuet Ming Amenities Centre",
+"aliases": ["庄悦明便利中心"],
+"type": "department"
+},
+{
+"name": "Chong Yuet Ming Cultural Centre",
+"aliases": ["庄悦明文化中心"],
+"type": "department"
+},
+{
+"name": "Civil Engineering, Department of",
+"aliases": ["土木工程系"],
+"type": "department"
+},
+{
+"name": "Civil Society and Governance, Centre for",
+"aliases": ["公民社会及管治研究中心"],
+"type": "department"
+},
+{
+"name": "Clinical Oncology, Department of",
+"aliases": ["临床肿瘤学系"],
+"type": "department"
+},
+{
+"name": "Clinical Trials Centre",
+"aliases": ["临床试验中心"],
+"type": "department"
+},
+{
+"name": "Common Core Curriculum Office",
+"aliases": ["通识教育办事处"],
+"type": "department"
+},
+{
+"name": "Communications and Public Affairs Office",
+"aliases": ["传讯及公关事务处"],
+"type": "department"
+},
+{
+"name": "Comparative and Public Law, Centre for",
+"aliases": ["比较及公法研究中心"],
+"type": "department"
+},
+{
+"name": "Comparative Education Research Centre",
+"aliases": ["比较教育研究中心"],
+"type": "department"
+},
+{
+"name": "Comparative Literature, Department of",
+"aliases": ["比较文学系"],
+"type": "department"
+},
+{
+"name": "Computer Science, Department of",
+"aliases": ["计算机科学系"],
+"type": "department"
+},
+{
+"name": "Construct I.T., Centre for",
+"aliases": ["建造信息技术中心"],
+"type": "department"
+},
+{
+"name": "Criminology, Centre for",
+"aliases": ["犯罪学研究中心"],
+"type": "department"
+},
+{
+"name": "Cyberport Institute of Hong Kong",
+"aliases": ["数码港香港研究所"],
+"type": "department"
+},
+{
+"name": "Dentistry, Faculty of",
+"aliases": ["牙医学院"],
+"type": "department"
+},
+{
+"name": "Department of Ophthalmology",
+"aliases": ["眼科学系"],
+"type": "department"
+},
+{
+"name": "Development and Alumni Affairs Office",
+"aliases": ["发展及校友事务处"],
+"type": "department"
+},
+{
+"name": "Development and Resources for Students, Centre of",
+"aliases": ["学生发展及资源中心"],
+"type": "department"
+},
+{
+"name": "Diagnostic Radiology, Department of",
+"aliases": ["诊断放射学系"],
+"type": "department"
+},
+{
+"name": "Duchess of Kent Hall",
+"aliases": ["肯特公爵夫人堂"],
+"type": "department"
+},
+{
+"name": "E-Commerce Infrastructure Development, Centre for",
+"aliases": ["电子商务基础设施发展中心"],
+"type": "department"
+},
+{
+"name": "Earth Sciences, Department of",
+"aliases": ["地球科学系"],
+"type": "department"
+},
+{
+"name": "Education, Faculty of",
+"aliases": ["教育学院"],
+"type": "department"
+},
+{
+"name": "Educational Leadership, Centre for",
+"aliases": ["教育领导研究中心"],
+"type": "department"
+},
+{
+"name": "Electric Vehicles, International Research Centre for",
+"aliases": ["电动车辆国际研究中心"],
+"type": "department"
+},
+{
+"name": "Electrical and Electronic Engineering, Department of",
+"aliases": ["电机电子工程系"],
+"type": "department"
+},
+{
+"name": "Electrical Energy Systems, Centre for",
+"aliases": ["电力能源系统中心"],
+"type": "department"
+},
+{
+"name": "Electron Microscope Unit",
+"aliases": ["电子显微镜组"],
+"type": "department"
+},
+{
+"name": "Emerging Technologies Institute",
+"aliases": ["新兴科技研究所"],
+"type": "department"
+},
+{
+"name": "Endocrinology and Diabetes, Centre of",
+"aliases": ["内分泌及糖尿病中心"],
+"type": "department"
+},
+{
+"name": "Engineering, Faculty of",
+"aliases": ["工学院"],
+"type": "department"
+},
+{
+"name": "English, School of",
+"aliases": ["英文学院"],
+"type": "department"
+},
+{
+"name": "Enhancement of Teaching and Learning, Centre for the",
+"aliases": ["教学及学习增进中心"],
+"type": "department"
+},
+{
+"name": "Equal Opportunity Unit",
+"aliases": ["平等机会组"],
+"type": "department"
+},
+{
+"name": "Estates Office",
+"aliases": ["地产处"],
+"type": "department"
+},
+{
+"name": "Examinations Office",
+"aliases": ["考试及资格组"],
+"type": "department"
+},
+{
+"name": "Family Medicine and Primary Care, Department of",
+"aliases": ["家庭医学及基层医疗科学部"],
+"type": "department"
+},
+{
+"name": "Finance and Enterprises Office (Campus Office)",
+"aliases": ["财务及企业处 (校园办事处)"],
+"type": "department"
+},
+{
+"name": "Finance and Enterprises Office (Off-Campus Office)",
+"aliases": ["财务及企业处 (校外办事处)"],
+"type": "department"
+},
+{
+"name": "Financial Innovation and Risk Management, Centre for",
+"aliases": ["金融创新及风险管理中心"],
+"type": "department"
+},
+{
+"name": "Fine Arts, Department of",
+"aliases": ["美术系"],
+"type": "department"
+},
+{
+"name": "Fong Shu Chuen Amenities Centre",
+"aliases": ["方树全便利中心"],
+"type": "department"
+},
+{
+"name": "General Education Unit",
+"aliases": ["通识教育组"],
+"type": "department"
+},
+{
+"name": "Genomic Sciences, Centre for",
+"aliases": ["基因组科学中心"],
+"type": "department"
+},
+{
+"name": "Geography, Department of",
+"aliases": ["地理系"],
+"type": "department"
+},
+{
+"name": "Globalization and Cultures, Centre for the Study of",
+"aliases": ["全球化及文化研究中心"],
+"type": "department"
+},
+{
+"name": "Graduate House",
+"aliases": ["研究生院"],
+"type": "department"
+},
+{
+"name": "Graduate School",
+"aliases": ["研究生院"],
+"type": "department"
+},
+{
+"name": "History, Department of",
+"aliases": ["历史系"],
+"type": "department"
+},
+{
+"name": "HKU Black Box",
+"aliases": ["香港大学黑盒子"],
+"type": "department"
+},
+{
+"name": "HKU Employees Union",
+"aliases": ["香港大学雇员会"],
+"type": "department"
+},
+{
+"name": "HKU School of Professional and Continuing Education",
+"aliases": ["香港大学专业进修学院", "SPACE"],
+"type": "department"
+},
+{
+"name": "HKU Staff Association",
+"aliases": ["香港大学職員协会"],
+"type": "department"
+},
+{
+"name": "HKU Visitor Centre",
+"aliases": ["香港大学访客中心"],
+"type": "department"
+},
+{
+"name": "HKU-Pasteur Research Centre",
+"aliases": ["香港大学-巴斯德研究中心"],
+"type": "department"
+},
+{
+"name": "Hong Kong Institute for the Humanities and Social Sciences",
+"aliases": ["香港人文社会科学研究所"],
+"type": "department"
+},
+{
+"name": "Hong Kong Institute of Economics and Business Strategy",
+"aliases": ["香港经济及商业策略研究所"],
+"type": "department"
+},
+{
+"name": "Hong Kong Jockey Club Centre for Suicide Research and Prevention",
+"aliases": ["香港赛马会自杀研究及预防中心"],
+"type": "department"
+},
+{
+"name": "Hong Kong University Press",
+"aliases": ["香港大学出版社"],
+"type": "department"
+},
+{
+"name": "Hornell Hall",
+"aliases": ["荷乃尔堂"],
+"type": "department"
+},
+{
+"name": "Hsu Long Sing Amenities Centre",
+"aliases": ["徐龙星便利中心"],
+"type": "department"
+},
+{
+"name": "Human Development and Birth Defects, Centre of",
+"aliases": ["人类发展及出生缺陷中心"],
+"type": "department"
+},
+{
+"name": "Human Resource Section",
+"aliases": ["人力资源组"],
+"type": "department"
+},
+{
+"name": "Humanities and Medicine, Centre for the",
+"aliases": ["人文及医学中心"],
+"type": "department"
+},
+{
+"name": "Humanities, School of",
+"aliases": ["人文学院"],
+"type": "department"
+},
+{
+"name": "Industrial and Manufacturing Systems Engineering, Department of",
+"aliases": ["工业及制造系统工程学系"],
+"type": "department"
+},
+{
+"name": "Information Technology in Education, Centre for",
+"aliases": ["教育信息技术中心"],
+"type": "department"
+},
+{
+"name": "Information Technology Services",
+"aliases": ["信息技术服务处"],
+"type": "department"
+},
+{
+"name": "Internal Audit Office",
+"aliases": ["内部审计处"],
+"type": "department"
+},
+{
+"name": "International Student Exchange, Academic Liaison Section, Office of",
+"aliases": ["国际学生交流办事处学术联络组"],
+"type": "department"
+},
+{
+"name": "Jao Tsung-I Petite Ecole",
+"aliases": ["饶宗颐小书院"],
+"type": "department"
+},
+{
+"name": "Japanese Studies, Department of",
+"aliases": ["日本研究系"],
+"type": "department"
+},
+{
+"name": "Jockey Club Research and Information Centre for Landslip Prevention and Land Development",
+"aliases": ["赛马会斜坡预防及土地发展研究中心"],
+"type": "department"
+},
+{
+"name": "Journalism and Media Studies Centre",
+"aliases": ["新闻及传媒研究中心"],
+"type": "department"
+},
+{
+"name": "Kadoorie Centre",
+"aliases": ["嘉道理中心"],
+"type": "department"
+},
+{
+"name": "Kadoorie Institute, The",
+"aliases": ["嘉道理研究所"],
+"type": "department"
+},
+{
+"name": "Knowledge Exchange Office",
+"aliases": ["知识交流事务处"],
+"type": "department"
+},
+{
+"name": "Laboratory Animal Unit",
+"aliases": ["实验室动物单位"],
+"type": "department"
+},
+{
+"name": "Lady Ho Tung Hall",
+"aliases": ["何东夫人堂"],
+"type": "department"
+},
+{
+"name": "Landscape Architecture, Division of",
+"aliases": ["景观建筑学组"],
+"type": "department"
+},
+{
+"name": "Law and Technology Centre",
+"aliases": ["法律及科技中心"],
+"type": "department"
+},
+{
+"name": "Law, Department of",
+"aliases": ["法学系"],
+"type": "department"
+},
+{
+"name": "Law, Faculty of",
+"aliases": ["法学院"],
+"type": "department"
+},
+{
+"name": "Lee Chi Hung Hall",
+"aliases": ["李志恒堂"],
+"type": "department"
+},
+{
+"name": "Lee Hysan Hall",
+"aliases": ["李嘉诚堂"],
+"type": "department"
+},
+{
+"name": "Linguistics, Department of",
+"aliases": ["语言学系"],
+"type": "department"
+},
+{
+"name": "Management Information Unit",
+"aliases": ["管理资讯组"],
+"type": "department"
+},
+{
+"name": "Mathematical Research, Institute of",
+"aliases": ["数学研究所"],
+"type": "department"
+},
+{
+"name": "Mathematics, Department of",
+"aliases": ["数学系"],
+"type": "department"
+},
+{
+"name": "Mechanical Engineering, Department of",
+"aliases": ["机械工程系"],
+"type": "department"
+},
+{
+"name": "Medical and Health Sciences Education, Institute of",
+"aliases": ["医学及健康科学教育研究所"],
+"type": "department"
+},
+{
+"name": "Medicine, Department of",
+"aliases": ["内科学系"],
+"type": "department"
+},
+{
+"name": "Medicine, Li Ka Shing Faculty of",
+"aliases": ["李嘉诚医学院"],
+"type": "department"
+},
+{
+"name": "Microbiology, Department of",
+"aliases": ["微生物学系"],
+"type": "department"
+},
+{
+"name": "Modern Languages and Cultures, School of",
+"aliases": ["现代语言及文化学院"],
+"type": "department"
+},
+{
+"name": "Morrison Hall",
+"aliases": ["马礼逊堂"],
+"type": "department"
+},
+{
+"name": "Music, Department of",
+"aliases": ["音乐系"],
+"type": "department"
+},
+{
+"name": "Nonlinear Mechanics, Centre of",
+"aliases": ["非线性力学中心"],
+"type": "department"
+},
+{
+"name": "Nursing, School of",
+"aliases": ["护理学院"],
+"type": "department"
+},
+{
+"name": "Obstetrics and Gynaecology, Department",
+"aliases": ["产科及妇科学系"],
+"type": "department"
+},
+{
+"name": "Orthopaedics and Traumatology, Department of",
+"aliases": ["骨科及创伤学系"],
+"type": "department"
+},
+{
+"name": "Paediatrics and Adolescent Medicine, Department of",
+"aliases": ["儿童及青少年科学系"],
+"type": "department"
+},
+{
+"name": "Pathology, Department of",
+"aliases": ["病理学系"],
+"type": "department"
+},
+{
+"name": "Pharmacology and Pharmacy, Department of",
+"aliases": ["药理及药剂学系"],
+"type": "department"
+},
+{
+"name": "Philosophy, Department of",
+"aliases": ["哲学系"],
+"type": "department"
+},
+{
+"name": "Physics, Department of",
+"aliases": ["物理系"],
+"type": "department"
+},
+{
+"name": "Pokfulam Amenities Centre",
+"aliases": ["薄扶林便利中心"],
+"type": "department"
+},
+{
+"name": "Politics and Public Administration, Department of",
+"aliases": ["政治及公共行政学系"],
+"type": "department"
+},
+{
+"name": "Poon Kam Kai Institute of Management",
+"aliases": ["潘鎏凯管理学研究所"],
+"type": "department"
+},
+{
+"name": "Professional Legal Education, Department of",
+"aliases": ["专业法律教育组"],
+"type": "department"
+},
+{
+"name": "Psychiatry, Department of",
+"aliases": ["精神科学系"],
+"type": "department"
+},
+{
+"name": "Psychology, Department of",
+"aliases": ["心理学系"],
+"type": "department"
+},
+{
+"name": "Public Health, School of",
+"aliases": ["公共卫生学院"],
+"type": "department"
+},
+{
+"name": "Public Opinion Programme",
+"aliases": ["民意研究计划"],
+"type": "department"
+},
+{
+"name": "R. C. Lee Hall",
+"aliases": ["李嘉诚堂"],
+"type": "department"
+},
+{
+"name": "Real Estate and Construction, Department of",
+"aliases": ["地产及建设学系"],
+"type": "department"
+},
+{
+"name": "Registry",
+"aliases": ["教务处"],
+"type": "department"
+},
+{
+"name": "Research Services Section",
+"aliases": ["研究服务组"],
+"type": "department"
+},
+{
+"name": "Ricci Hall",
+"aliases": ["利玛窦堂"],
+"type": "department"
+},
+{
+"name": "Robert Black College",
+"aliases": ["罗伯·布莱克学院"],
+"type": "department"
+},
+{
+"name": "Safety Office",
+"aliases": ["安全事务处"],
+"type": "department"
+},
+{
+"name": "School Liaison Office",
+"aliases": ["学校联络办事处"],
+"type": "department"
+},
+{
+"name": "School of Modern Languages and Cultures",
+"aliases": ["现代语言及文化学院"],
+"type": "department"
+},
+{
+"name": "Science, Faculty of",
+"aliases": ["理学院"],
+"type": "department"
+},
+{
+"name": "Simon K. Y. Lee Hall",
+"aliases": ["李国贤堂"],
+"type": "department"
+},
+{
+"name": "Social Sciences Research Centre",
+"aliases": ["社会科学研究中心"],
+"type": "department"
+},
+{
+"name": "Social Sciences, Faculty of",
+"aliases": ["社会科学学院"],
+"type": "department"
+},
+{
+"name": "Social Work and Social Administration, Department of",
+"aliases": ["社会工作及社会行政学系"],
+"type": "department"
+},
+{
+"name": "Sociology, Department of",
+"aliases": ["社会学系"],
+"type": "department"
+},
+{
+"name": "St. John's College",
+"aliases": ["圣约翰书院"],
+"type": "department"
+},
+{
+"name": "Starr Hall",
+"aliases": ["史笃华堂"],
+"type": "department"
+},
+{
+"name": "Statistics and Actuarial Science, Department of",
+"aliases": ["统计及精算学系"],
+"type": "department"
+},
+{
+"name": "Strategic Planning and Provost's Office",
+"aliases": ["策略规划及教务长办事处"],
+"type": "department"
+},
+{
+"name": "Surgery, Department of",
+"aliases": ["外科学系"],
+"type": "department"
+},
+{
+"name": "Sustainability Office",
+"aliases": ["可持续发展事务处"],
+"type": "department"
+},
+{
+"name": "Swire Hall",
+"aliases": ["太古堂"],
+"type": "department"
+},
+{
+"name": "Swire Institute of Marine Science",
+"aliases": ["太古海洋科学研究所"],
+"type": "department"
+},
+{
+"name": "Technology Transfer Office",
+"aliases": ["技术转移事务处"],
+"type": "department"
+},
+{
+"name": "University Hall",
+"aliases": ["大学堂"],
+"type": "department"
+},
+{
+"name": "University Health Service",
+"aliases": ["大学健康服务"],
+"type": "department"
+},
+{
+"name": "University Libraries",
+"aliases": ["大学图书馆"],
+"type": "department"
+},
+{
+"name": "University Museum and Art Gallery",
+"aliases": ["大学博物馆及艺术馆"],
+"type": "department"
+},
+{
+"name": "Urban Planning and Design, Department of",
+"aliases": ["都市规划及设计学系"],
+"type": "department"
+},
+{
+"name": "Urban Studies and Urban Planning, Centre of",
+"aliases": ["都市研究及都市规划中心"],
+"type": "department"
+},
+{
+"name": "Versitech Limited",
+"aliases": ["维智科技有限公司"],
+"type": "department"
+},
+{
+"name": "Vice-Chancellor's Office",
+"aliases": ["校长办事处"],
+"type": "department"
+},
+{
+"name": "Wah Ching Centre of Research on Education in China",
+"aliases": ["华青中国教育研究中心"],
+"type": "department"
+},
+{
+"name": "Wei Lun Hall",
+"aliases": ["卫兰堂"],
+"type": "department"
+}
+]
+}
