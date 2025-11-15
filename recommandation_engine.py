@@ -1,12 +1,12 @@
-# recommandation_engine.py
-
 import json
 import requests
 from typing import Dict, List, Optional
 from langchain.llms.base import LLM
 from langchain.schema import LLMResult, Generation
 from pydantic import Field
+from flask import Flask, request, jsonify
 
+app = Flask(__name__)
 
 # ============================================================
 # 1. ChatGLM LLM 类
@@ -19,8 +19,7 @@ class ChatGLM(LLM):
     def __init__(self, api_url: str, api_key: str, **kwargs):
         super().__init__(
             api_url=api_url,
-            api_key=api_key,
-            **kwargs
+            api_key=api_key,** kwargs
         )
 
     @property
@@ -64,7 +63,7 @@ class ChatGLM(LLM):
 # 2. 数据加载模块
 # ============================================================
 
-def load_menu_data(filename="tagged_restaurant.json"):
+def load_menu_data(filename="tagged_restaurants.json"):
     """直接加载已有标签的数据"""
     print(f"📂 正在加载数据文件: {filename}")
 
@@ -236,7 +235,7 @@ def filter_items(menu_data: Dict, tags: Dict, strict_mode: bool = False) -> List
                     # 严格模式：必须全部匹配
                     if match_score == total_criteria:
                         filtered_items.append({
-                            **item,
+                            ** item,
                             "match_score": match_score,
                             "restaurant_name": restaurant.get("name", "")
                         })
@@ -330,33 +329,60 @@ def generate_recommendations(user_query: str, llm: ChatGLM, menu_data: Dict, top
 
 
 # ============================================================
-# 6. 主程序
+# 6. 初始化与接口配置
 # ============================================================
 
+# 全局初始化LLM和菜单数据
+llm = ChatGLM(
+    api_url="https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    api_key="409c732b24c344eb9525919467821b13.Ep4NKHIocKvELO48"
+)
+menu_data = load_menu_data("tagged_restaurants.json")
+
+
+@app.route('/food_recommend', methods=['POST'])
+def recommend_food():
+    user_query = request.json.get('message', '').strip()
+    if not user_query:
+        return jsonify({"response": "请输入餐饮需求"})
+
+    try:
+        result = generate_recommendations(
+            user_query=user_query,
+            llm=llm,
+            menu_data=menu_data,
+            top_n=5
+        )
+        # 格式化推荐结果为自然语言
+        if result["recommendations"]:
+            resp = "为您推荐以下餐饮：\n"
+            for i, item in enumerate(result["recommendations"], 1):
+                resp += f"{i}. {item['name']}（{item['restaurant_name']}）\n"
+                # 处理可能的空值
+                price = item.get('price', '未知')
+                flavors = item.get('ai_tags', {}).get('flavor_profile', [])
+                flavor_str = ', '.join(flavors) if flavors else '无特殊口味'
+                resp += f"   价格：{price}，特点：{flavor_str}\n"
+        else:
+            resp = "未找到符合条件的餐饮推荐"
+        return jsonify({"response": resp})
+    except Exception as e:
+        return jsonify({"response": f"推荐失败：{str(e)}"}), 500
+
+
 def main():
-    """主程序"""
-
-    # 初始化 ChatGLM
-    llm = ChatGLM(
-        api_url="https://open.bigmodel.cn/api/paas/v4/chat/completions",
-        api_key="409c732b24c344eb9525919467821b13.Ep4NKHIocKvELO48"
-    )
-
-    # 加载菜单数据
-    menu_data = load_menu_data("tagged_restaurants.json")
-
+    """测试主程序"""
     # 测试用例
     test_queries = [
-        "我想吃牛肉",
         "有没有什么清爽的饮品",
-        "来点重口味食物",
-        "我对麸质过敏，有没有可以吃的？"
     ]
 
     for query in test_queries:
-        result = generate_recommendations(query, llm, menu_data, top_n=5)
+        generate_recommendations(query, llm, menu_data, top_n=5)
         print("\n" + "~" * 60 + "\n")
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    # 优先启动Flask服务，如需运行测试可注释掉下面一行并启用main()
+    app.run(port=5003, debug=True)
+    # main()

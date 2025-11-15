@@ -777,7 +777,10 @@ def tool_query_location(q: str) -> str:
                 }
                 for name, cat, keyword in filtered
             ]
-            return f"LLM_RESULTS:{json.dumps(candidates_info, ensure_ascii=False)}"
+            return json.dumps({
+                "type": "location_candidates",
+                "content": candidates_info
+            }, ensure_ascii=False)
     
     # 步骤4：相似度匹配
     matches = find_best_matches(q, top_n=3)
@@ -789,12 +792,17 @@ def tool_query_location(q: str) -> str:
     
     # 步骤5：返回候选列表（需要确认）
     if matches and matches[0][2] > 0.3:
-        # 返回 JSON 格式的候选列表，让外层处理
         candidates_info = [{"name": m[0], "category": m[1], "score": m[2]} for m in matches]
-        return f"NEED_CONFIRM:{json.dumps(candidates_info, ensure_ascii=False)}"
+        return json.dumps({
+            "type": "location_confirm",
+            "content": candidates_info
+        }, ensure_ascii=False)
     
     # 步骤6：完全无匹配
-    return f"抱歉，未能找到与「{q}」相关的地点。\n请尝试使用建筑物/部门的官方名称或常用简称。"
+    return json.dumps({
+        "type": "location",
+        "content": f"抱歉，未能找到与「{q}」相关的地点。\n请尝试使用建筑物/部门的官方名称或常用简称。"
+    }, ensure_ascii=False)
 
 
 def handle_user_query(q: str) -> str:
@@ -909,16 +917,15 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/chat", methods=["POST"])
+# 修改原/chat路由为/map_chat
+@app.route("/map_chat", methods=["POST"])
 def chat():
     msg = request.json.get("message", "")
     try:
-        # 使用新的处理函数，支持确认流程
         resp = handle_user_query(msg)
         return jsonify({"response": resp})
     except Exception as e:
         return jsonify({"response": f"错误：{e}"}), 500
-
 
 if __name__ == "__main__":
     import sys

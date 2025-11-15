@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自习室预定系统助手</title>
+    <title>HKU校园助手</title>
     <style>
         * {
             margin: 0;
@@ -69,26 +69,26 @@
             max-width: 80%;
             padding: 10px 15px;
             border-radius: 18px;
-            word-wrap: break-word;
+            margin: 5px 0;
         }
 
         .user-message {
-            align-self: flex-end;
             background-color: #4a6cf7;
             color: white;
-            border-bottom-right-radius: 4px;
+            align-self: flex-end;
         }
 
         .bot-message {
-            align-self: flex-start;
             background-color: #f1f1f1;
-            border-bottom-left-radius: 4px;
+            color: #333;
+            align-self: flex-start;
         }
 
         .chat-input {
             display: flex;
             padding: 15px;
             border-top: 1px solid #eee;
+            gap: 10px;
         }
 
         .chat-input input {
@@ -97,11 +97,13 @@
             border: 1px solid #ddd;
             border-radius: 20px;
             outline: none;
-            font-size: 14px;
+        }
+
+        .chat-input input:focus {
+            border-color: #4a6cf7;
         }
 
         .chat-input button {
-            margin-left: 10px;
             background-color: #4a6cf7;
             color: white;
             border: none;
@@ -112,7 +114,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: background-color 0.3s;
         }
 
         .chat-input button:hover {
@@ -136,6 +137,24 @@
         .card h3 {
             margin-bottom: 10px;
             color: #4a6cf7;
+        }
+
+        .function-tabs {
+            display: flex;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .function-tab {
+            padding: 5px 10px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+        }
+
+        .function-tab.active {
+            border-bottom: 2px solid #4a6cf7;
+            color: #4a6cf7;
+            font-weight: bold;
         }
 
         .quick-actions {
@@ -170,10 +189,6 @@
             background-color: #4caf50;
         }
 
-        .status-offline {
-            background-color: #f44336;
-        }
-
         .loading {
             display: none;
             align-self: flex-start;
@@ -199,41 +214,32 @@
         }
 
         @keyframes loading {
-            0%, 80%, 100% {
-                transform: scale(0);
-            }
-            40% {
-                transform: scale(1);
-            }
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
         }
 
         @media (max-width: 768px) {
-            .main-content {
-                flex-direction: column;
-            }
-
-            .sidebar {
-                order: -1;
-            }
+            .main-content { flex-direction: column; }
+            .sidebar { order: -1; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>自习室预定系统助手</h1>
-            <p>帮助您测试和使用香港大学图书馆自习室预定系统</p>
+            <h1>HKU校园助手</h1>
+            <p>支持自习室预订、地点查询和餐饮推荐</p>
         </header>
 
         <div class="main-content">
             <div class="chat-container">
                 <div class="chat-header">
                     <span class="status-indicator status-online"></span>
-                    对话助手
+                    校园助手
                 </div>
                 <div class="chat-messages" id="chatMessages">
                     <div class="message bot-message">
-                        您好！我是自习室预定系统助手，可以帮助您了解预定流程并执行自动化测试。请问有什么可以帮助您的吗？
+                        您好！我可以帮您预订自习室、查询校园地点或推荐餐饮，请问有什么需要？
                     </div>
                 </div>
                 <div class="loading" id="loadingIndicator">
@@ -254,12 +260,19 @@
 
             <div class="sidebar">
                 <div class="card">
-                    <h3>快速操作</h3>
+                    <h3>功能导航</h3>
+                    <div class="function-tabs">
+                        <div class="function-tab active" data-tab="all">全部</div>
+                        <div class="function-tab" data-tab="booking">预订</div>
+                        <div class="function-tab" data-tab="location">地点</div>
+                        <div class="function-tab" data-tab="food">餐饮</div>
+                    </div>
                     <div class="quick-actions">
-                        <button class="quick-action-btn" onclick="sendQuickMessage('帮我测试预定系统')">测试预定系统</button>
-                        <button class="quick-action-btn" onclick="sendQuickMessage('预定自习室')">预定自习室</button>
-                        <button class="quick-action-btn" onclick="sendQuickMessage('如何预定自习室？')">预定帮助</button>
-                        <button class="quick-action-btn" onclick="sendQuickMessage('检查预定系统状态')">系统状态</button>
+                        <button class="quick-action-btn" data-category="booking" onclick="sendQuickMessage('预定Main Library的Computer', 'booking')">预订自习室</button>
+                        <button class="quick-action-btn" data-category="location" onclick="sendQuickMessage('图书馆在哪里', 'location')">查询图书馆</button>
+                        <button class="quick-action-btn" data-category="location" onclick="sendQuickMessage('计算机科学系在哪', 'location')">查询院系</button>
+                        <button class="quick-action-btn" data-category="food" onclick="sendQuickMessage('推荐餐厅', 'food')">推荐餐厅</button>
+                        <button class="quick-action-btn" data-category="food" onclick="sendQuickMessage('哪里有咖啡', 'food')">找咖啡店</button>
                     </div>
                 </div>
 
@@ -267,97 +280,119 @@
                     <h3>系统信息</h3>
                     <p><strong>版本:</strong> 1.0.0</p>
                     <p><strong>状态:</strong> <span class="status-indicator status-online"></span>在线</p>
-                    <p><strong>API:</strong> ChatGLM-4.5</p>
+                    <p><strong>功能:</strong> 自习室预订 | 地点查询 | 餐饮推荐</p>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        // DOM元素
         const chatMessages = document.getElementById('chatMessages');
         const messageInput = document.getElementById('messageInput');
         const sendButton = document.getElementById('sendButton');
         const loadingIndicator = document.getElementById('loadingIndicator');
+        const functionTabs = document.querySelectorAll('.function-tab');
+        const quickActions = document.querySelectorAll('.quick-action-btn');
 
-        // API配置 - 修改为你的后端API地址
-        const API_URL = 'http://localhost:5000/chat';
+        // 修改API配置为调整后的路由
+const API = {
+    booking: '/booking_chat',      // 自习室预订接口
+    location: '/map_chat',         // 地点查询接口
+    food: '/food_recommend'        // 餐饮推荐接口
+};
+
+        // 功能标签切换
+        functionTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                functionTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                const tabCategory = tab.getAttribute('data-tab');
+                quickActions.forEach(action => {
+                    const actionCategory = action.getAttribute('data-category');
+                    if (tabCategory === 'all' || tabCategory === actionCategory) {
+                        action.style.display = 'block';
+                    } else {
+                        action.style.display = 'none';
+                    }
+                });
+            });
+        });
 
         // 添加消息到聊天窗口
-        function addMessage(content, isUser = false) {
+        function addMessage(text, isUser = false) {
             const messageDiv = document.createElement('div');
-            messageDiv.classList.add('message');
-            messageDiv.classList.add(isUser ? 'user-message' : 'bot-message');
-            messageDiv.textContent = content;
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            messageDiv.textContent = text;
             chatMessages.appendChild(messageDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
-        // 显示加载指示器
+        // 显示加载状态
         function showLoading() {
             loadingIndicator.style.display = 'flex';
-            chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
-        // 隐藏加载指示器
+        // 隐藏加载状态
         function hideLoading() {
             loadingIndicator.style.display = 'none';
         }
 
-        // 发送消息到API
-        async function sendMessage(message) {
+        // 快速消息发送（接收功能类别参数）
+        function sendQuickMessage(message, category) {
+            sendMessage(message, category);
+        }
+
+        // 核心发送消息函数（根据类别选择接口）
+        async function sendMessage(message, category) {
             if (!message.trim()) return;
-
-            // 添加用户消息到聊天窗口
             addMessage(message, true);
-
-            // 清空输入框
             messageInput.value = '';
-
-            // 显示加载指示器
             showLoading();
 
+            // 确定接口地址
+            let apiUrl;
+            if (category) {
+                apiUrl = API[category];
+            } else {
+                // 自动判断用户输入的功能类型
+                const msgLower = message.toLowerCase();
+                if (msgLower.includes('预订') || msgLower.includes('book')) {
+                    apiUrl = API.booking;
+                } else if (msgLower.includes('哪里') || msgLower.includes('位置') || msgLower.includes('查询') || msgLower.includes('在哪')) {
+                    apiUrl = API.location;
+                } else if (msgLower.includes('推荐') || msgLower.includes('吃') || msgLower.includes('餐厅') || msgLower.includes('咖啡') || msgLower.includes('饮品')) {
+                    apiUrl = API.food;
+                } else {
+                    // 默认使用地点查询接口
+                    apiUrl = API.location;
+                }
+            }
+
             try {
-                // 发送请求到后端API
-                const response = await fetch(API_URL, {
+                const response = await fetch(apiUrl, {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ message: message })
                 });
-
-                if (!response.ok) {
-                    throw new Error(`API请求失败: ${response.status}`);
-                }
-
                 const data = await response.json();
-
-                // 添加机器人回复到聊天窗口
-                addMessage(data.response);
+                addMessage(data.response || '未获取到回复');
             } catch (error) {
-                console.error('Error:', error);
-                addMessage('抱歉，连接服务器时出错。请检查网络连接或稍后再试。');
+                addMessage('服务器连接失败，请重试');
             } finally {
-                // 隐藏加载指示器
                 hideLoading();
             }
         }
 
-        // 发送快速消息
-        function sendQuickMessage(message) {
-            sendMessage(message);
-        }
-
-        // 事件监听器
-        sendButton.addEventListener('click', () => {
-            sendMessage(messageInput.value);
+        // 绑定发送按钮和回车键事件
+        sendButton.addEventListener('click', () => sendMessage(messageInput.value));
+        messageInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage(messageInput.value);
         });
 
-        messageInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                sendMessage(messageInput.value);
-            }
+        // 页面卸载时清理
+        window.addEventListener('beforeunload', () => {
+            fetch('/close', { method: 'POST' });
         });
 
         // 页面加载完成后聚焦输入框

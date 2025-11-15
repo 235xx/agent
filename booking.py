@@ -134,7 +134,7 @@ class StudyRoomBookingTester:
         self.date_option_xpath = "/html/body/form/div[5]/div/div[1]/table/tbody/tr[3]/td[2]/select/option[3]"
         self.query_btn_id = "main_btnGetResult"
         self.seat_xpath = "/html/body/form/div[5]/div/div[1]/div[4]/div/table/tbody/tr[2]/td[3]"
-        self.submit_btn_id = " main_btnSubmit"
+        self.submit_btn_id = "main_btnSubmit"
         self.confirm_btn_id = "main_btnSubmitYes"
 
     def _get_library_option_index(self, library_name: str) -> int:
@@ -202,23 +202,23 @@ class StudyRoomBookingTester:
             library_xpath = f"/html/body/form/div[5]/div/div[1]/table/tbody/tr[1]/td[2]/select/option[{lib_index}]"
             self.driver.find_element(By.XPATH, library_xpath).click()
             print(f"7. 已选择场馆：{library_name}")
-            sleep(3)
+            sleep(5)
 
             # 5. 选择设施
             self.driver.find_element(By.ID, self.facility_select_id).click()
-            sleep(2)
+            sleep(5)
             fac_index = self._get_facility_option_index(library_name, facility_name)
             facility_xpath = f"/html/body/form/div[5]/div/div[1]/table/tbody/tr[2]/td[2]/select/option[{fac_index}]"
             self.driver.find_element(By.XPATH, facility_xpath).click()
             print(f"8. 已选择设施：{facility_name}")
-            sleep(2)
+            sleep(5)
 
             # 6. 选择日期
             self.driver.find_element(By.ID, self.date_select_id).click()
-            sleep(2)
+            sleep(5)
             self.driver.find_element(By.XPATH, self.date_option_xpath).click()
             print("9. 已选择日期")
-            sleep(2)
+            sleep(5)
 
             # 7. 查询座位
             self.driver.find_element(By.ID, self.query_btn_id).click()
@@ -229,16 +229,16 @@ class StudyRoomBookingTester:
             target_seat = self.driver.find_element(By.XPATH, self.seat_xpath)
             target_seat.click()
             print("11. 已选择目标座位")
-            sleep(2)
+            sleep(8)
 
             # 9. 提交预约
             self.driver.find_element(By.ID, self.submit_btn_id).click()
-            sleep(2)
+            sleep(5)
             print("12. 预约请求已提交")
 
             # 10. 确认预约
             self.driver.find_element(By.ID, self.confirm_btn_id).click()
-            sleep(3)
+            sleep(5)
             print("13. 预约确认完成")
 
             return f"✅ 预定成功！已完成「{library_name}」的「{facility_name}」预约"
@@ -362,7 +362,8 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/chat', methods=['POST'])
+# 修改原/chat路由为/booking_chat
+@app.route('/booking_chat', methods=['POST'])
 def chat():
     user_message = request.json.get('message', '').strip()
     try:
